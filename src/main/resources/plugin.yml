@@ -1,0 +1,23 @@
+name: CNVRanks
+main: me.caneva20.CNVRanks.CNVRanks
+version: 1.0-RC
+author: caneva20
+authors: [Game_Crytus]
+description: Ranks a player up for money.
+depend: [Vault, CNVCore]
+commands:
+  rankup:
+    description: RankManager you up if you can afford it.
+  ranks:
+    description: List all ranks.
+  rank:
+    description: Shows info about your current rank.
+  cnvranks:
+    description: Shows info about the plugin
+permissions:
+  cnv.ranks.rankup.others:
+    description: 'Allows the player to rankup other players, no money or permission check will be done, nothing will be charged from ranked player'
+    default: false
+#  cnv.ranks.notag:
+#    default: false
+#    description: 'Blocks the user to show their rank''s tag in chat, useful if you want to hide the tag for staff players'

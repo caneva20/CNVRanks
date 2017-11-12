@@ -1,0 +1,49 @@
+PLUGIN_TAG: '&f[&5CNV&6Ranks&f] '
+YOU_DONT_HAVE_PERMISSION: 'You do not have permission for this!'
+NO_RANK: 'You don''t have a rank to be able to rankup'
+HIGHEST_RANK_POSSIBLE: 'You are at the highest possible rank!'
+PLAYER_ON_RANKUP: 'You have been promoted to rank <par>{{RANK_NAME}}</par>'
+PLAYER_NOT_ENOUGH_MONEY: 'The rank <par>{{RANK_NAME}}</par> cost $<par>{{RANK_PRICE}} XP</par>, you need more $<par>{{MONEY_NEEDED}}</par> to buy the remaining XP'
+PLUGIN_RELOADED: 'Plugin reloaded!'
+RANKUP_OTHER_SUCCESS: 'You have promoted <par>{{PLAYER_NAME}}</par> successfully'
+RANKUP_OTHER_PLAYER_CANT_RANKUP: 'The player <par>{{PLAYER_NAME}}</par> can''t rankup. Probably he/she is already at the highest rank'
+CANT_RANKUP: 'Sorry, you can''t rankup'
+EXP_GIVEN: 'You gave <par>{{EXP}}</par> EXP to <par>{{PLAYER_NAME}}</par>'
+EXP_RECEIVED: 'You received <par>{{EXP}}</par> EXP from <par>{{PLAYER_NAME}}</par>'
+EXP_BOTTLE_GIVEN: 'You gave an EXP Bottle with <par>{{EXP}}</par> EXP to <par>{{PLAYER_NAME}}</par>'
+EXP_BOTTLE_RECEIVED: 'You received an EXP Bottle with <par>{{EXP}}</par> EXP from <par>{{PLAYER_NAME}}</par>'
+EXP_BOTTLE_NAME: 'EXP Book'
+EXP_BOTTLE_DESCRIPTION:
+  - 'Gives you <par>{{AMOUNT}}</par> rankup EXP when used'
+  - ''
+  - ''
+  - '-------------------------------------------'
+
+#Invalid args
+INVALID_PLAYER: 'The player <par>{{PLAYER_NAME}}</par> was not found'
+INVALID_NUMBER: '<par>{{ARG}}</par> is not a valid number'
+NUMBER_MUST_BE_MORE_THAN: '<par>{{ARG}}</par> must be more than <par>{{MORE}}</par>'
+NUMBER_MUST_BE_LESS_THAN: '<par>{{ARG}}</par> must be less than <par>{{LESS}}</par>'
+
+#Rank listing
+RANK_LIST_HEADER: '-----------------[RANK LIST]-----------------'
+RANK_LIST_FOOTER: '---------------------------------------------'
+RANK_LIST_BODY: '&7#{{RANK_ORDER}}&f>{{RANK}} &a{{RANK_NAME}}&f: &2${{RANK_PRICE}} {{RANK_STATUS}} {{IS_ACTUAL_RANK}}'
+RANK_LIST_STATUS_PURCHASED: '&2{{CHECK_MARK}}'
+RANK_LIST_STATUS_NOT_PURCHASED: '&4{{CROSS_CHECK_MARK}}'
+RANK_LIST_ACTUAL: '&6&l << YOU ARE HERE!'
+
+#Rank info
+RANK_INFO_BODY:
+  - '&6---------------------------------------------'
+  - '&2Your rank: &a{{RANK_NAME}}'
+  - '&2TAG: {{RANK_TAG}}'
+  - ''
+  - '&2XP: &f[{{PROGRESS_BAR}}&f] &a{{PROGRESS_PERCENTAGE}}%'
+  - '&2XP: &f(&a{{CURRENT_EXP}} &f/ &a{{NEEDED_EXP}}&f) &2YOU NEED MORE: &a{{EXP_REMAINING}} XP'
+  - ''
+  - '&2Money needed to rank up: $&a{{MONEY_NEEDED}}'
+  - '&6---------------------------------------------'
+RANK_INFO_PROGRESS_BAR_LENGTH: 120
+RANK_INFO_PROGRESS_BAR_FILL_CHAR_ACTIVE: '&e|'
+RANK_INFO_PROGRESS_BAR_FILL_CHAR_DEACTIVE: '&7|'

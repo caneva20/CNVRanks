@@ -1,0 +1,15 @@
+MYSQL:
+  HOST: 'localhost'
+  DB: 'SOME DB NAME - CHANGE IT'
+  USER: 'root'
+  PASSWORD: ''
+  PORT: 3306
+# Delay is in ticks, 20 ticks equals 1 second, so 5 ticks is a quarter of a second or 4 times per second or 250 milliseconds
+# Higher values MAY improve server tps, but saving and loading info will take more time.
+# This setting does NOT affect your server directly.
+DB_LOAD_DELAY: 5
+DB_SAVE_DELAY: 12000
+HIDE_CHAT_TAG:
+  # Should we hide the tag for those who has this permission?
+  ENABLED: true
+  PERMISSION: 'cnv.ranks.notag'

@@ -1,0 +1,55 @@
+RANK_EXP_PRICE:
+  DEFAULT_PRICE:
+    PRICE: 1
+    PERMISSION: 'cnv.ranks.expprice.default'
+    PRIORITY: 0
+  VIP_PRICE:
+    PRICE: 0.90
+    PERMISSION: 'cnv.ranks.expprice.vip'
+    PRIORITY: 1
+RANK_EXP_EARNING:
+  MINING:
+    cheapblocks:
+      EXP: 1
+      IDS:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 5:1
+        - 5:2
+        - 5:3
+    expansiveblocks:
+      EXP: 10
+      IDS:
+        - 56
+        - 21
+        - 14
+        - 15
+  FIGHTING:
+    PLAYERS:
+      PER_DAMAGE_DEALT: 0.1
+      PER_KILL: 100
+    PASSIVE_MOBS:
+      PER_DAMAGE_DEALT: 0.05
+      PER_KILL: 2
+    AGGRESSIVE_MOBS:
+      PER_DAMAGE_DEALT: 0.01
+      PER_KILL: 1
+RANKS:
+  default:
+    PRICE: 100
+    DISPLAY_NAME: 'Default'
+    TAG: '[Default]'
+    PERMISSION: cnv.ranks.rankup.default
+    LISTABLE: false
+    PERMISSIONS:
+      PERMANENT:
+        - perm.a
+        - perm.b
+        - perm.c
+      TEMPORARY:
+        - perm.d
+        - perm.e
+        - perm.f
