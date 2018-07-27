@@ -32,7 +32,7 @@ public class Lang {
     public static void disable () {}
 
     public static void reload () {
-        language.reloadCustomConfig();
+        language.reload();
     }
 
     public static void sendNotEnoughMoney (CommandSender to, RankPlayer rank) {

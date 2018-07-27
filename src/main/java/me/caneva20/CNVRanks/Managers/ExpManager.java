@@ -123,11 +123,6 @@ public class ExpManager {
     }
 
     public void useExpBottle (Player player, ItemStack bottle) {
-//        if (!isExpBottle(bottle)) {
-//            logger.debug("BOTTLE Not valid");
-//            return;
-//        }
-
         ItemMeta meta = bottle.getItemMeta();
 
         double value = 0;

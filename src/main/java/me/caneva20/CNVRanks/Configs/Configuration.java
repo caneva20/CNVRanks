@@ -16,7 +16,7 @@ public class Configuration {
     }
 
     public static void reload () {
-        config.reloadCustomConfig();
+        config.reload();
     }
 
     public static void disable () {}

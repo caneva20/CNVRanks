@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="SimpleProject" default="CopyJar" basedir = ".">
+
+    <property name="project.pluginsLocation" location="D:\Fabricio\Minecraft servers\Servers\Dev\plugins"/>
+
+    <target name="CopyJar" description="Moves the jar file to the plugin directory">
+        <copy todir="${project.pluginsLocation}/">
+            <fileset dir="target">
+                <include name="**.jar"/>
+            </fileset>
+        </copy>
+    </target>
+</project>

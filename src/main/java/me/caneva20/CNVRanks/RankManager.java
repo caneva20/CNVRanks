@@ -56,7 +56,7 @@ public class RankManager {
     }
 
     public static void reload () {
-        configuration.reloadCustomConfig();
+        configuration.reload();
     }
 
     private static void reloadPlayers () {
